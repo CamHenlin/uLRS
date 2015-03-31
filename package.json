@@ -1,0 +1,28 @@
+{
+  "name": "uLRS",
+  "version": "0.0.1",
+  "description": "Node/Express/Mongo-Powered Learning Record Store",
+  "main": "app.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CamHenlin/uLRS.git"
+  },
+  "author": "Cameron Henlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamHenlin/uLRS/issues"
+  },
+  "homepage": "https://github.com/CamHenlin/uLRS",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "connect-nedb-session": "0.0.3",
+    "express": "^4.12.3",
+    "express-session": "^1.10.4",
+    "gen-uid": "0.0.2",
+    "gen-uuid": "0.0.1",
+    "nedb": "^1.1.1"
+  }
+}
