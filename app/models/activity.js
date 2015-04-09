@@ -13,7 +13,8 @@ var Schema = mongoose.Schema;
 var ActivitySchema = new Schema({
   id: { type: String, default: '' },
   definition: { type: Object, default: null },
-  objectType: { type: String, default: '' }
+  objectType: { type: String, default: '' },
+  extensions: { type: Object, default null }
 });
 
 /**
