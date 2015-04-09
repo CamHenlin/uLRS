@@ -31,7 +31,6 @@ exports.newActorVerbActivity = function (req, res, next) {
   res.send(200, actorVerbActivity);
 };
 
-
 exports.newContext = function (req, res, next) {
   var context = new Context();
 };
@@ -45,6 +44,36 @@ exports.newResult = function (req, res, next) {
 };
 
 exports.newVerb = function (req, res, next) {
+  var verb = new Verb();
+};
+
+exports.getActivity = function (req, res, next) {
+  var activity = new Activity();
+};
+
+exports.getActor = function (req, res, next) {
+  var actor = new Actor();
+};
+
+exports.getActorVerbActivity = function (req, res, next) {
+  var actorVerbActivity = new ActorVerbActivity();
+
+  res.send(200, actorVerbActivity);
+};
+
+exports.getContext = function (req, res, next) {
+  var context = new Context();
+};
+
+exports.getDefinition = function (req, res, next) {
+  var definition = new Definition();
+};
+
+exports.getResult = function (req, res, next) {
+  var result = new Result();
+};
+
+exports.getVerb = function (req, res, next) {
   var verb = new Verb();
 };
 
