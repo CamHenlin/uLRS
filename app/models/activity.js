@@ -15,3 +15,32 @@ var ActivitySchema = new Schema({
   definition: { type: Object, default: null },
   objectType: { type: String, default: '' }
 });
+
+/**
+ * Add your
+ * - pre-save hooks
+ * - validations
+ * - virtuals
+ */
+
+/**
+ * Methods
+ */
+
+ActivitySchema.method({
+
+});
+
+/**
+ * Statics
+ */
+
+ActivitySchema.static({
+
+});
+
+/**
+ * Register
+ */
+
+mongoose.model('Activity', ActivitySchema);

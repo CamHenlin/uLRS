@@ -17,3 +17,32 @@ var DefinitionSchema = new Schema({
   interactionType: { type: String, default: '' },
   correctResponsesPattern: { type: Array, default: [] },
 });
+
+/**
+ * Add your
+ * - pre-save hooks
+ * - validations
+ * - virtuals
+ */
+
+/**
+ * Methods
+ */
+
+DefinitionSchema.method({
+
+});
+
+/**
+ * Statics
+ */
+
+DefinitionSchema.static({
+
+});
+
+/**
+ * Register
+ */
+
+mongoose.model('Definition', DefinitionSchema);

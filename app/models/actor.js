@@ -13,3 +13,32 @@ var Schema = mongoose.Schema;
 var ActorSchema = new Schema({
   mbox: { type: String, default: '' }
 });
+
+/**
+ * Add your
+ * - pre-save hooks
+ * - validations
+ * - virtuals
+ */
+
+/**
+ * Methods
+ */
+
+ActorSchema.method({
+
+});
+
+/**
+ * Statics
+ */
+
+ActorSchema.static({
+
+});
+
+/**
+ * Register
+ */
+
+mongoose.model('Actor', ActorSchema);

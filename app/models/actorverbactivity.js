@@ -16,3 +16,32 @@ var ActorVerbActivitySchema = new Schema({
   object: { type: Object, default: null },
   context: { type: Object, default: null }
 });
+
+/**
+ * Add your
+ * - pre-save hooks
+ * - validations
+ * - virtuals
+ */
+
+/**
+ * Methods
+ */
+
+ActorVerbActivitySchema.method({
+
+});
+
+/**
+ * Statics
+ */
+
+ActorVerbActivitySchema.static({
+
+});
+
+/**
+ * Register
+ */
+
+mongoose.model('ActorVerbActivity', ActorVerbActivitySchema);
