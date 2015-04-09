@@ -15,7 +15,10 @@ var ActorVerbActivitySchema = new Schema({
   verb: { type: Object, default: null },
   object: { type: Object, default: null },
   context: { type: Object, default: null },
-  result: { type: Object, default: null }
+  result: { type: Object, default: null },
+  timestamp: { type: Date, default: null },
+  store: { type: Date, default: null },
+  authority: { type: Object, default: null }
 });
 
 /**
