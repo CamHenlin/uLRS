@@ -17,7 +17,11 @@ exports.index = function (req, res) {
   });
 };
 
-exports.storeActorVerbActivity = function (req, res) {
+exports.newActivity = function (req, res) {
+
+};
+
+exports.newActorVerbActivity = function (req, res) {
   var actorVerbActivity = new ActorVerbActivity();
   actorVerbActivity.actor = new Actor();
   actorVerbActivity.verb = new Verb();
@@ -25,4 +29,27 @@ exports.storeActorVerbActivity = function (req, res) {
   actorVerbActivity.context = new Context();
 
   res.send(200, actorVerbActivity();
-}
+};
+
+exports.newActor = function (req, res) {
+
+};
+
+
+exports.newContext = function (req, res) {
+
+};
+
+exports.newDefinition = function (req, res) {
+
+};
+
+
+exports.newResult = function (req, res) {
+
+};
+
+exports.newVerb = function (req, res) {
+
+};
+
