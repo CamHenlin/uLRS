@@ -11,8 +11,10 @@ var Schema = mongoose.Schema;
  */
 
 var ContextSchema = new Schema({
+  instructor: { type: Object, default: null }, // this is an actor
   contextActivities: {
-    parent: { type: Array, default: null }
+    parent: { type: Object, default: null },
+    grouping: { type: Object, default: null }
   }
 });
 
