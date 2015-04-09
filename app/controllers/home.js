@@ -17,6 +17,12 @@ exports.index = function (req, res) {
   });
 };
 
-exports.index = function (req, res) {
-  res.send({});
+exports.storeActorVerbActivity = function (req, res) {
+  var actorVerbActivity = new ActorVerbActivity();
+  actorVerbActivity.actor = new Actor();
+  actorVerbActivity.verb = new Verb();
+  actorVerbActivity.object = new Activity();
+  actorVerbActivity.context = new Context();
+
+  res.send(200, actorVerbActivity();
 }
