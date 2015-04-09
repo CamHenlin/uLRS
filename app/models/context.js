@@ -15,7 +15,8 @@ var ContextSchema = new Schema({
   contextActivities: {
     parent: { type: Object, default: null },
     grouping: { type: Object, default: null }
-  }
+  },
+  extensions: { type: Object, default: null }
 });
 
 /**

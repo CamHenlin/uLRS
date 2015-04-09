@@ -11,9 +11,12 @@ var Schema = mongoose.Schema;
  */
 
 var ResultSchema = new Schema({
-  id: { type: String, default: '' },
-  definition: { type: Object, default: null },
-  objectType: { type: String, default: '' }
+  completion: { type: Boolean, default: false },
+  success: { type: Boolean, default: false },
+  score: {
+    scaled: { type: Decimal, default: 1 },
+  },
+  extensions: { type: String, default: '' }
 });
 
 /**
