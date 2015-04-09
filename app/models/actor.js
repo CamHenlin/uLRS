@@ -11,7 +11,12 @@ var Schema = mongoose.Schema;
  */
 
 var ActorSchema = new Schema({
-  mbox: { type: String, default: '' }
+  name: { type: String, default: '' },
+  mbox: { type: String, default: '' },
+  account: {
+    homePage: { type: String, default: '' },
+    name: { type: String, default: '' }
+  }
 });
 
 /**

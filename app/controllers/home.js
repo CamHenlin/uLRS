@@ -8,3 +8,7 @@ exports.index = function (req, res) {
     title: 'uLRS'
   });
 };
+
+exports.index = function (req, res) {
+  res.send({});
+}

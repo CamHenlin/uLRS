@@ -11,7 +11,13 @@ var Schema = mongoose.Schema;
  */
 
 var VerbSchema = new Schema({
-  id: { type: String, default: '' }
+  id: { type: String, default: '' },
+  display: { type: String, default: '' },
+  definition: {
+    name: { type: String, default: '' },
+    description: { type: String, default: '' },
+    extensions: { type: String, default: '' }
+  }
 });
 
 /**
